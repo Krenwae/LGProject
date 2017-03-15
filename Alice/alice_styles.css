@@ -1,7 +1,49 @@
+body {
+  background-color: #d3f4ff;
+}
+
 h1 {
   text-align: center;
+  font-family: sans-serif;
 }
 
 h2 {
   text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-indent: 10px;
+}
+
+header {
+  margin-left: 300px;
+  font-family: monospace;
+}
+
+.poem {
+  margin-top: 20px;
+  margin-left: 250px;
+  font-family: monospace;
+}
+
+.poem div:nth-child(2n) {
+  text-indent: 8px;
+}
+
+.mirror div:nth-child(2n) {
+  text-indent: 8px;
+}
+
+.mirror {
+  margin-top: 20px;
+  margin-right: 250px;
+  font-family: monospace;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
