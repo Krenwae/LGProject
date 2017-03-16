@@ -19,6 +19,7 @@ p {
 }
 
 header {
+  margin-top: 30px;
   margin-left: 300px;
   font-family: monospace;
 }
@@ -36,6 +37,10 @@ header {
 }
 
 .couplet div:nth-child(2n) {
+  text-indent: 8px;
+}
+
+#riddle div:nth-child(2n+1) {
   text-indent: 8px;
 }
 
