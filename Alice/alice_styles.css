@@ -29,7 +29,13 @@ header {
   font-family: monospace;
 }
 
-.poem div:nth-child(2n) {
+.couplet {
+  margin-top: 20px;
+  margin-left: 250px;
+  font-family: monospace;
+}
+
+.couplet div:nth-child(2n) {
   text-indent: 8px;
 }
 
